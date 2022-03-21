@@ -1,6 +1,6 @@
 import React from 'react';
-import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
-import {ContainerTextWrapper, HighlightText, SectionContainer, SectionDescription, SectionTitle} from "./App.css";
+import { ScrollView, View } from 'react-native';
+import { ContainerTextWrapper, HighlightText, SectionContainer, SectionDescription, SectionTitle } from "./App.css";
 
 const Section: React.FC<{
   companyName: string;
