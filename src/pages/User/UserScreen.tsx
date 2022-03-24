@@ -7,7 +7,7 @@ const UserScreen = () => {
         <UserScreenStyle>
             <Text>
                 UserScreen
-        </Text>
+            </Text>
         </UserScreenStyle>
     )
 };
