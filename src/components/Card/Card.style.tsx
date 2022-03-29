@@ -1,5 +1,3 @@
 import styled from 'styled-components/native';
 
-export const CardStyle = styled.View`
-
-`;
+export const CardStyle = styled.View``;
