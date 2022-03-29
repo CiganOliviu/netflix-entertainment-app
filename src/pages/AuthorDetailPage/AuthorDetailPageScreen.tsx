@@ -3,13 +3,11 @@ import { Text } from 'react-native';
 import { AuthorDetailPageScreenStyle } from './AuthorDetailPageScreen.style';
 
 const AuthorDetailPageScreen = () => {
-    return (
-        <AuthorDetailPageScreenStyle>
-            <Text>
-                AuthorDetailPage
-            </Text>
-        </AuthorDetailPageScreenStyle>
-    )
+  return (
+    <AuthorDetailPageScreenStyle>
+      <Text>AuthorDetailPage</Text>
+    </AuthorDetailPageScreenStyle>
+  );
 };
 
 export default AuthorDetailPageScreen;
