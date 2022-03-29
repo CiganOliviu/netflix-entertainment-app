@@ -1,15 +1,17 @@
 import React from 'react';
-import { Text } from 'react-native';
-import { SplashScreenStyle } from './SplashScreen.style';
+import {
+  Loader,
+  SplashScreenContainer,
+  SplashScreenText,
+} from './SplashScreen.style';
 
 const SplashScreen = () => {
-    return (
-        <SplashScreenStyle>
-            <Text>
-                SplashScreen
-            </Text>
-        </SplashScreenStyle>
-    )
+  return (
+    <SplashScreenContainer>
+      <SplashScreenText>NETFLIX</SplashScreenText>
+      <Loader color={'#e50914'} size={'large'} />
+    </SplashScreenContainer>
+  );
 };
 
 export default SplashScreen;

@@ -1,6 +1,12 @@
-import React from 'react';
-import { ScrollView, View } from 'react-native';
-import { ContainerTextWrapper, HighlightText, SectionContainer, SectionDescription, SectionTitle } from "./App.css";
+import React, {useEffect} from 'react';
+import {ScrollView, View} from 'react-native';
+import {
+  ContainerTextWrapper,
+  HighlightText,
+  SectionContainer,
+  SectionDescription,
+  SectionTitle,
+} from './App.css';
 
 const Section: React.FC<{
   companyName: string;
@@ -21,10 +27,7 @@ const App = () => {
     <SectionContainer>
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View>
-          <Section companyName="NETFLIX" title="Entertainment">
-            Edit <HighlightText>App.tsx</HighlightText> to change this
-            screen and then come back to see your edits.
-          </Section>
+          <Section companyName="NETFLIX" title="Entertainment"></Section>
         </View>
       </ScrollView>
     </SectionContainer>
