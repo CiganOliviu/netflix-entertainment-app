@@ -1,4 +1,3 @@
 import styled from 'styled-components/native';
 
-export const LoginScreenStyle = styled.View`
-`;
+export const LoginScreenStyle = styled.View``;

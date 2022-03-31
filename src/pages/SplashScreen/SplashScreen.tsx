@@ -8,9 +8,7 @@ import {
 const SplashScreen = () => {
   return (
     <SplashScreenContainer>
-      <SplashScreenText>NETFLIX</SplashScreenText>
-      <Loader color={'#e50914'} size={'large'} />
-    </SplashScreenContainer>
+      <SplashScreenText>NETFLIX</SplashScreenText><Loader color={'#e50914'} size={'large'} /></SplashScreenContainer>
   );
 };
 

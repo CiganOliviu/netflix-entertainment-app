@@ -1,4 +1,3 @@
 import styled from 'styled-components/native';
 
-export const FooterStyle = styled.View`
-`;
+export const FooterStyle = styled.View``;

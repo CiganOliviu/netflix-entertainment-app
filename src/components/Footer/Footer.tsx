@@ -3,13 +3,11 @@ import { Text } from 'react-native';
 import { FooterStyle } from './Footer.style';
 
 const Footer = () => {
-    return (
-        <FooterStyle>
-            <Text>
-                Footer
-            </Text>
-        </FooterStyle>
-    )
+  return (
+    <FooterStyle>
+      <Text>Footer</Text>
+    </FooterStyle>
+  );
 };
 
 export default Footer;
