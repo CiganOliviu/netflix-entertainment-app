@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react';
-import {ScrollView, View} from 'react-native';
+import React from 'react';
+import { ScrollView, View } from 'react-native';
 import {
   ContainerTextWrapper,
-  HighlightText,
   SectionContainer,
   SectionDescription,
   SectionTitle,
@@ -11,7 +10,7 @@ import {
 const Section: React.FC<{
   companyName: string;
   title: string;
-}> = ({children, companyName, title}) => {
+}> = ({ children, companyName, title }) => {
   return (
     <SectionContainer>
       <SectionTitle>
@@ -27,7 +26,7 @@ const App = () => {
     <SectionContainer>
       <ScrollView contentInsetAdjustmentBehavior="automatic">
         <View>
-          <Section companyName="NETFLIX" title="Entertainment"></Section>
+          <Section companyName="NETFLIX" title="Entertainment" />
         </View>
       </ScrollView>
     </SectionContainer>
