@@ -1,11 +1,23 @@
 import React from 'react';
-import { Text } from 'react-native';
-import { CardStyle } from './Card.style';
+import { View } from 'react-native';
+import { CardStyle, CardImage, CardTitle, CardPresentation } from './Card.style';
 
-const Card = () => {
+type CardType = {
+  data: any;
+};
+
+const Card: React.FC<CardType> = ({ data }) => {
   return (
     <CardStyle>
-      <Text>Card</Text>
+      <View>
+        <CardImage
+          source={{
+            uri: `https://image.tmdb.org/t/p/original${data?.poster_path}`,
+          }}
+        />
+        <CardTitle>{data?.title}</CardTitle>
+        <CardPresentation>{data?.overview.slice(0, 45)}...</CardPresentation>
+      </View>
     </CardStyle>
   );
 };

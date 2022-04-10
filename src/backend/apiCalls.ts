@@ -5,7 +5,6 @@ export const backendUrl = 'https://api.themoviedb.org/3';
 
 export const requestUrls = {
   fetchPopularMovies: `${backendUrl}/movie/popular?api_key=${apiKey}&language=en-US&page=1`,
-  fetchUserToken: `${backendUrl}/authentication/token/new?api_key=${apiKey}&language=en-US&page=1`,
 };
 
 export const useCustomFetchPopularMovies = () => {
